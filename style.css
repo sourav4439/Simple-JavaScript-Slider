@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    margin: 0 auto;
+
+}
+.main-nav{
+    width: 100%;
+    background-color: forestgreen;
+    height: 58px;
+    overflow: hidden;
+}
+
+.logo-left{
+    width: 100px;
+    height: 100%;
+    float: left;
+    padding: 16px;
+}
+
+.main-nav .nav-link li{
+    padding: 16px;
+    font-size:20px;
+    list-style: none;
+    float: left;
+
+}
+
+.main-nav .nav-link li a{
+    text-decoration:none;
+    color:white;
+}
+
+.main-nav .nav-link  li:hover{
+    background-color: #1c791c;
+
+    border-bottom: 1px solid #18350b;
+    transition: 0.5s  ease-in ;
+    cursor: pointer;
+
+}
+
+.main-nav .nav-link li:hover a{
+ 
+    color:#aba3a3;
+    transition: 0.5s  ease ;
+}
+.search-bar{
+    float: right;
+    display: block;
+    padding:15px;
+}
+.search-bar .search-textbox{
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    padding: 2px;
+    outline: none;
+    border:none
+
+}
+.search-bar .search-textbox:hover,.search-bar .search-textbox:focus{
+
+    border: 2px solid #1b5e20;
+
+    transition: 0.5s  ease ;
+}
+.search-btn{
+    padding: 7px;
+    border-radius: 6px;
+    outline: none;
+    background-color: #399a0d;
+    border: 1px solid #1d4e07;
+    cursor: pointer;
+    color:white;
+}
+.search-btn:hover{
+
+    background-color: #174403;
+    border: 1px solid #63ce33f5;
+
+    transition: 0.5s  ease ;
+}
+.mobile-nav{
+    display:none;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.slider{
+    width: 100%;
+    height:400px ;
+}
+.slider .slider-wrapper{
+    border:2px solid #228b22;
+    width: 98%;
+    height: 98%;
+    margin:3px auto;
+    overflow: hidden;
+}
+.slider .slider-wrapper .slider-img{
+    width: 100%;
+    height: 100%;
+    display: none;
+    
+    
+    
+}
+.slider .slider-wrapper .active{
+    display: block;
+
+   
+        
+    
+}
+.slidenext{
+    font-size: 20px;
+    background-color: #aba3a3;
+    cursor: pointer;
+    position: relative;
+    top: 200px;
+    float: right;
+    right: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    opacity: 35%;
+    padding: 3px;
+    color: black;
+    
+}
+
+.slideprev{
+    font-size: 20px;
+    background-color: #aba3a3;
+    cursor: pointer;
+    position: relative;
+    top: 200px;
+    left: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    opacity: 35%;
+    padding: 3px;
+    color:black;
+}
+.slidenext:hover{
+   background-color: #807d7d;
+   opacity: 60%;
+   transition: 0.4s ease-in;
+}
+
+.slideprev:hover{
+    
+    opacity: 60%;
+    transition: 0.4s ease-in;
+    background-color: #807d7d;
+}
+.sidebar{
+    float:right;
+    width: 350px;
+    border-left:1px solid  #228b22;
+    margin-top: -445px;
+
+}
+.sidebar .directormsg{
+    width: 100%;
+    overflow: hidden;
+}
+.sidebar .directormsg .directorimg{
+    border-radius: 10px;
+    border:2px solid #228b22;
+    width: 150px;
+    height: 150px;
+    margin-left: 90px;
+}
+.sidebar .directormsg .massage{
+
+    width: 300px;
+    text-align: justify;
+    margin: 10px 0px 0px 20px;
+    border: 2px solid #228b22;
+    border-radius: 10px;
+    padding: 5px;
+}
+.notice h2{
+    text-align:center;
+}
+.sidebar .notice{
+    width: 100%;
+    overflow: hidden;
+}
+.sidebar .noticelist{
+    text-align: justify;
+    margin: 10px 0px 0px 20px;
+    border: 2px solid #228b22;
+    border-radius: 10px;
+    padding: 5px;
+    list-style: none;
+
+}
+.sidebar .noticelist li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.sidebar .noticelist li a:hover{
+
+    color: #807d7d;
+}
+.aboutinstitute{
+    padding: 20px;
+    overflow: hidden;
+
+    margin-left: 10px;
+    margin-right: 360px;
+
+}
+.aboutinstitute h2{
+    text-align: center;
+}
+
+.aboutinstitute p{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 22px;
+
+
+}
+.aboutinstitute  .about-img{
+width: 300px;
+height: 200px;
+padding: 0.25rem;
+background-color: #fff;
+border: 1px solid #dee2e6;
+border-radius: 0.25rem;
+
+
+}
+.location{
+    width: 100%;
+    height: 400px;
+    margin-top: 70px;
+    position: relative;
+}
+
+.location .map h2{
+    text-align: center;
+
+}
+.location .map{
+    width: 100%;
+    height: 92%;
+}
+.location .map img{
+    width: 100%;
+    height: 100%;
+}
+.main-footer{
+    width: 100%;
+    background-color: forestgreen;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    color:white;
+
+}
+.main-footer a{
+    color:white;
+    text-decoration:none;
+}
+.main-footer a:hover{
+    color: #aba3a3;;
+
+}
+.right-footer{
+    line-height: 30px;
+}
+.copyright{
+    width: 100%;
+    background-color: #186918;
+    height: 30px;
+    position: relative;
+    text-align: center;
+    line-height: 2;
+    bottom: 0;
+}
+
+
+
+@media (max-width: 1072px) {
+
+    .logo-left{
+        width: 50px;
+    }
+
+    .main-nav .nav-link li{
+        padding: 7px;
+        font-size: 20px;
+        margin-top: 6px;
+
+    }
+    .search-bar .search-textbox{
+        width: 75px;
+        height: 15px;
+        padding: 1px;
+
+    }
+    .search-btn{
+        padding: 3px;
+        border-radius: 6px;
+            }
+
+}
+/* Css for Gallary Page */
+.image-section{
+    display: inline-block;
+    margin: 10px 45px auto;}
+
+.image-section .image-wrapper img {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  .image-wrapper{
+    width: 400px;
+    height: 245px;
+    float: left;
+    margin-top:10px;
+    margin-right: 10px;
+  }
+  
+  .image-title{
+    font-size: 90%;
+    color: #fff;
+    height: 30px;
+    background-color: forestgreen;
+    border: 1px solid #dee2e6;
+    width: 100%;
+    padding: 3px;
+    border-radius: 5px;
+  }
+  /*css For notice*/
+   /* Style for Courses */
+.notice-section, .courses,.login{
+   min-height: 585px;
+}
+.table {
+    width: 100%;
+    
+    margin-bottom: 1rem;
+    color: #212529;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    text-align: center;
+    border-top: 1px solid #dee2e6;
+
+  }
+  
+  .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  .table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+    
+  }
+  .table-bordered {
+    border: 1px solid #dee2e6;
+  }
+  
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #dee2e6;
+  }
+  
+  .table-bordered thead th,
+  .table-bordered thead td {
+    border-bottom-width: 2px;
+  }
+  
+.table-success,
+
+.table-success > td {
+  background-color: #c3e6cb;
+  
+}
+.table-success,
+.table-success > th{
+    background-color: #6fe48a;
+}
+.table-success th,
+.table-success td,
+.table-success thead th,
+.table-success tbody + tbody {
+  border-color: #8fd19e;
+}
+
+ .table-success:hover {
+  background-color: #b1dfbb;
+}
+
+ .table-success:hover > td,
+.table-success:hover > th {
+  background-color: #b1dfbb;
+}
+ /* style for login */
+ .form{
+     width: 100%;
+ }
+ .form-box{
+    position: relative;
+    display: block;  
+    border: 1px solid #d2cdcdde;
+    width: 400px;
+   
+    background-color: #e3eae4de;
+    height: 300px;
+    margin: 25px auto;
+    padding: 100px;
+ }
+ .user-input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 10px;
+}
+    .user-input:hover, .user-input:focus {
+        border: 2px solid #45A049;
+        outline:none;
+    }
+    .user-input:read-only {
+        border: none;
+        outline: none;
+        cursor: default;
+        background-color:#a09b9b75;
+    }
+.validation-text{
+    color:red;
+}
+.input-validation-error, .input-validation-error:focus {
+    border: 2px solid red;
+    outline: none;
+}
+.input-label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+}
+.btn-submit{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+    .btn-submit:hover {
+        background-color: #45a049;
+    }
